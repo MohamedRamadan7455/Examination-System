@@ -1,0 +1,49 @@
+go
+create OR ALTER proc retrive_branch
+as
+begin
+select * from Branch
+end
+------------------------------------------------------------
+GO
+CREATE OR ALTER PROC ADD_branch
+@b_location varchar(50)
+AS 
+BEGIN 
+ BEGIN TRY
+  INSERT INTO Branch VALUES(@b_location)
+ END TRY
+ BEGIN CATCH
+  SELECT 'ERROR'
+ END CATCH
+END
+-------------------------------------------------------
+GO 
+CREATE OR ALTER PROC UPDATE_branch
+@b_id int,
+@b_loc varchar(50)
+AS
+BEGIN
+ BEGIN TRY
+  UPDATE Branch
+  SET 
+  Branch_Loc=@b_loc
+  WHERE Branch_Id=@b_id
+ END TRY
+ BEGIN CATCH
+  SELECT 'ERROR'
+ END CATCH
+END
+------------------------------------------------------------------------------
+GO
+CREATE OR ALTER PROC DELETE_BRANCH
+@B_ID INT
+AS
+BEGIN 
+ BEGIN TRY
+  DELETE FROM Branch WHERE Branch_Id=@B_ID
+ END TRY
+ BEGIN CATCH
+  SELECT 'ERROR'
+ END CATCH
+END
