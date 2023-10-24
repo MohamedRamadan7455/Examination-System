@@ -34,3 +34,12 @@ These entities have specific relations according to the following rules:
 ![Examination_System(2) 1](https://github.com/MohamedRamadan7455/Examination-System/assets/120788796/23f6eaf1-d3a1-4364-8701-d49b5d12ef6e)
 
 
+# Mapping
+]
+![Mapping Final(1)(5) drawio](https://github.com/MohamedRamadan7455/Examination-System/assets/120788796/2b6de7dc-deaa-4668-b249-5804b32dc9e7)
+
+#  Database Physical Schema
+
+![data](https://github.com/MohamedRamadan7455/Examination-System/assets/120788796/9657b920-1c76-4c01-a229-e39635453ec2)
+
+ 
