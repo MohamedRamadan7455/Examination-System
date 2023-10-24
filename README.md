@@ -31,5 +31,6 @@ These entities have specific relations according to the following rules:
 
 5) Each Student can take many exams two trials per course, and each exam has many questions.
 
- <img src="images/allbikes-1539286251.jpg"
+![Examination_System(2) 1](https://github.com/MohamedRamadan7455/Examination-System/assets/120788796/23f6eaf1-d3a1-4364-8701-d49b5d12ef6e)
+
 
